@@ -1,0 +1,146 @@
+.di{
+    width: 100%;
+    height: 13.34rem;
+    background-image: url("../img/login/login.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+.di>.tu{
+    width: 100%;
+    height: 2.3rem;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 2rem;
+}
+.di>.tu >img {
+    width: 2.3rem;
+    height: 100%;
+}
+.di >.zi1{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:4.5rem;
+}
+.di >.zi1 p{
+    font-size: 0.18rem;
+    color: #98d31f;
+}
+.di >.zi2{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:5rem;
+}
+.di >.zi2 p{
+    font-size: 0.18rem;
+    color: #98d31f;
+}
+.di >.denglu{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:6.15rem;
+}
+.di >.denglu>.login .yuan{
+    width: 3rem;
+    height: 0.3rem;
+}
+.di >.denglu>.login{
+    width: 5.42rem;
+    height: 100%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0.15rem 0.2rem rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.di >.denglu>.login >.box{
+    width: 80%;
+    height: 0.85rem;
+    border-bottom: 1px solid #7d7f80;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.di >.denglu>.login >.box >.zuo{
+    display: flex;
+    align-items: center;
+}
+.di >.denglu>.login >.box >.zuo:nth-child(2){
+    width: 2rem;
+}
+.di >.denglu>.login >.box >.zuo >.yanse{
+    width: 0.4rem;
+    height: 0.15rem;
+    background: #0fee2f;
+    border-radius: 3px;
+}
+.di >.denglu>.login >.box >.zuo >input{
+    width: 2.2rem;
+    border: none;
+}
+.di >.denglu>.login >.box >.you{
+    width: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.di >.denglu>.login >.box >.you>.icon-44{
+    font-size: 0.4rem;
+    color: #0c80dc;
+}
+.di >.denglu>.login >.box >.you> img{
+    width:1.8rem;
+    height: 0.5rem;
+}
+.di >.denglu>.login >.box >.you>.icon-iconset0114{
+    font-size: 0.4rem;
+    color: red;
+    font-weight: bold;
+}
+.di >.btn{
+    width: 100%;
+    height: 0.58rem;
+    background-size: 1.9rem 0.58rem;
+    background-image: url("../img/login/huiBtn.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 2.9rem;
+    left:2.8rem;
+}
+.di>.tongyi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:11.2rem;
+}
+.di >.tongyi >.yuan{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background: #0c80dc;
+}
+.di >.tongyi >.zi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.di >.tongyi >.zi span{
+    color: #3b4040;
+}

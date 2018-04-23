@@ -1,0 +1,145 @@
+.di{
+    width: 100%;
+    height: 1rem;
+    background: #212121;
+    position: fixed;
+    bottom: 0;
+
+}
+.di .zi h5{
+    font-size: 0.26rem;
+    padding-left: 2rem;
+    padding-top: 0.13rem;
+    box-sizing: border-box;
+    color: #fff;
+}
+.di .zi h6{
+    font-size: 0.18rem;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    color: #fff;
+}
+.di >.qisong{
+    width: 1.7rem;
+    height: 1rem;
+    background:#4d4f4f;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    top: 0rem;
+}
+.di >.qisong span{
+    font-size: 0.28rem;
+    position: absolute;
+    right: 0.4rem;
+    top:0.25rem;
+}
+.di img {
+    font-size: 1.1rem;
+    position: absolute;
+    top:-0.5rem;
+    left: 0.8rem;
+}
+.di .yuan{
+    width: 0.35rem;
+    height: 0.35rem;
+    border-radius: 50%;
+    background: #e2751d;
+    position: absolute;
+    top: -0.6rem;
+    left: 1.5rem;
+}
+.di .yuan p{
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+    text-align: center;
+}
+detail{
+    width: 100%;
+    height: 1.9rem;
+    /*background: #d7d4d4;*/
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 1rem;
+}
+detail > .empty{
+    width:100%;
+    height: 0.6rem;
+    background: #d7d4d4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+detail > .empty span{
+    color: #000;
+}
+detail .empty .emLeft{
+    width: 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+detail .empty .emRight{
+    width: 1rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+detail .empty> .emRight .icon-delete{
+    font-size: 0.2rem;
+}
+detail > .commodity{
+    width: 100%;
+    height: 0.9rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+detail .comLeft{
+    display: flex;
+    align-items: center;
+}
+detail .comLeft span{
+    font-size: 0.3rem;
+    color: #000000;
+    font-weight: bold;
+}
+detail .comRigth{
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+detail .comRigth .iconfont {
+    font-size: 0.2rem;
+}
+detail .comRigth  del{
+    font-size: 0.2rem;
+    color: #7d7f80;
+}
+detail .comRigth p{
+    font-size:0.26rem;
+    color: red;
+}
+detail .comRigth span{
+    font-size:0.26rem;
+}
+detail .pack{
+    width: 100%;
+    height: 0.4rem;
+    background: #dbdbdb;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+detail > .pack p{
+    font-size: 0.18rem;
+    text-align: center;
+}

@@ -1,0 +1,87 @@
+img{
+    width: 100%;
+    height: 8.96rem;
+}
+.zhifu{
+    width: 100%;
+    height: 7.11rem;
+    background: #fff;
+    border-top: 2px solid #000000;
+    position: fixed;
+    bottom: 0;
+}
+.zhifu >.box{
+    width: 100%;
+    height: 14.29%;
+    border-bottom: 1px solid #7d7f80;
+    padding: 0 0.6rem;
+
+}
+.zhifu >.box.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zhifu >.box.one p{
+    width: 2.2rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+.zhifu >.box>.left{
+    width: 2.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zhifu >.box>.left>img{
+    width: 0.7rem;
+    height: 0.7rem;
+}
+.zhifu >.box>.left>p{
+    font-size:0.3rem;
+}
+.zhifu >.box>.right{
+    width: 0.6rem;
+    height: 0.6rem;
+    display: flex;
+}
+.zhifu >.box>.right>img{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+.zhifu >.box.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zhifu >.box.three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zhifu >.box.four{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zhifu >.box.five{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zhifu >.box.six{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: none;
+}
+.zhifu >a{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    display: flex;
+    position: absolute;
+    top:0.35rem;
+    right: 0.55rem;
+}

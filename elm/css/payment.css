@@ -1,0 +1,399 @@
+.payment{
+    width: 7.5rem;
+    height: 13.34rem;
+    background-image: url("../img/payment/di.png");
+    background-size: 100% 100%;
+}
+.payment .dizhi{
+    width: 100%;
+    height: 2.31rem;
+}
+.payment .dizhi .fanhui{
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+.payment .dizhi .fanhui .icon-fanhui{
+    padding-left: 0.24rem;
+    font-size: 0.5rem;
+    color: white;
+}
+.payment .dizhi .diz{
+    width: 100%;
+    height: 1.5rem;
+    padding: 0 0.8rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.payment .dizhi .diz .one{
+    width: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.payment .dizhi .diz .one p{
+    font-size: 0.26rem;
+    color: white;
+}
+.payment .dizhi .diz .one span{
+    font-size: 0.18rem;
+    color: white;
+}
+.payment .dizhi .diz .two{
+    width: 5.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment .dizhi .diz .two p{
+    font-size: 0.32rem;
+    color: white;
+}
+.payment .dizhi .diz .two a{
+    width: 0.3rem;
+    height: 0.3rem;
+    display: flex;
+}
+.payment .dizhi .diz .two a .iconfont{
+    font-size: 0.3rem;
+    color: white;
+}
+.payment .dizhi .diz .three{
+    width: 2.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.payment .dizhi .diz .three p{
+    font-size: 0.26rem;
+    color: white;
+}
+.payment .dizhi .diz .three span{
+    font-size: 0.24rem;
+    color: white;
+}
+.payment .xiangxi{
+    width: 100%;
+    padding: 0.3rem 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.payment .xiangxi .Box{
+    width: 100%;
+    flex-grow: 1;
+    margin-bottom: 0.4rem;
+    border-radius: 0.1rem;
+    background: white;
+    box-shadow: 0 0.15rem 0.2rem rgba(0,0,0,0.5);
+}
+.payment .xiangxi .one{
+    width: 100%;
+    height: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .one .shang{
+    width: 80%;
+    height: 50%;
+    border-bottom: 1px solid #bfbfbf;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .one .shang p ,.xia .zhifu p{
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+.payment .xiangxi .one .shang span{
+    color: #cdd4a3;
+}
+.payment .xiangxi .one .xia{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .one .xia .xuanze{
+    width: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .one .xia .xuanze p{
+    font-size:0.28rem;
+    color: #cdd4a3;
+}
+.payment .xiangxi .one .xia .xuanze .iconfont{
+    font-size:0.28rem;
+    line-height: 1.3rem;
+}
+
+
+.payment .xiangxi .two{
+    width: 100%;
+    height: 4.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .two .box{
+    width: 80%;
+    height: 25%;
+}
+.payment .xiangxi .two .One{
+    border-bottom: 3px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+}
+.payment .xiangxi .two .One p{
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.payment .xiangxi .two .Two{
+    width: 80%;
+    height: 1.24rem;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .two .Two .Twoleft{
+    width: 2.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .two .Two .Twoleft p{
+    font-size: 0.3rem;
+}
+.payment .xiangxi .two .Two .Tworight{
+    width: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .two .Two .Tworight span{
+    color: #000;
+}
+.payment .xiangxi .two .Two .Tworight del{
+    font-size: 0.2rem;
+    color: #7d7f80;
+}
+
+.payment .xiangxi .two .Three{
+    width: 80%;
+    height: 0.8rem;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .two .Three  .ThreeLeft{
+    width: 2.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .two .Three  .ThreeLeft  .lv{
+    width: 1rem;
+    height: 0.4rem;
+    font-size: 0.3rem;
+    background: #8fc31f;
+    color: #fff;
+    text-align: center;
+    line-height: 0.4rem;
+}
+
+.payment .xiangxi .two .Three  .ThreeLeft p{
+    font-size: 0.26rem;
+}
+.payment .xiangxi .two .Three  .ThreeRight{
+    width: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.payment .xiangxi .two .Three  .ThreeRight p{
+    font-size: 0.26rem;
+}
+
+.payment .xiangxi .two .Four{
+    width: 80%;
+    height: 0.8rem;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .two .FourLfet{
+    line-height: 0.59rem;
+    text-align: center;
+    font-size: 0.26rem;
+}
+.payment .xiangxi .two .FourRight{
+    width:1.6rem;
+    height: 0.16rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .two .Five{
+    width: 80%;
+    height: 0.8rem;
+    border-top: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .two .FiveLeft{
+    width: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .two .FiveLeft  .iconfont{
+    font-size: 0.2rem;
+}
+.payment .xiangxi .two .FiveRight{
+    width: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .two .FiveRight  span{
+    font-size: 0.22rem;
+    color: #000;
+}
+.payment .xiangxi .two .FiveRight p{
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+
+
+.payment .xiangxi .three{
+    width: 100%;
+    height: 2.55rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .three .hezi{
+    width: 80%;
+    height: 25%;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .three .hezi.yi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .three .hezi.yi .heziright1{
+    width: 1.6rem;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+}
+.payment .xiangxi .three .hezi p{
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.payment .xiangxi .three .hezi h6{
+    font-size: 0.20rem;
+    color: #0fee2f;
+}
+.payment .xiangxi .three .hezi.er{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .three .hezi.er .heziright2{
+    width: 3.5rem;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .three .hezi.san{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .three .hezi.san .heziright3{
+    width: 1.2rem;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment .xiangxi .three .hezi.si{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+ }
+.payment .xiangxi .three .hezi.si .heziright4{
+    width: 0.6rem;
+    height: 0.3rem;
+    display: flex;
+}
+.payment .xiangxi .three .hezi.si .heziright4 img{
+    width: 0.6rem;
+    height: 0.3rem;
+}
+.payment .xiangxi .three .hezi.si .hezileft4{
+    width: 1.6rem;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.di{
+    width: 100%;
+    height: 1rem;
+    background: #212121;
+    position: fixed;
+    bottom: 0;
+}
+.di .zi h5{
+    font-size: 0.38rem;
+    padding-left: 0.4rem;
+    line-height: 1rem;
+    box-sizing: border-box;
+    color: #fff;
+}
+.di img {
+    width: 2.76rem;
+    height: 1rem;
+    position: absolute;
+    top:0;
+    right: 0;
+}

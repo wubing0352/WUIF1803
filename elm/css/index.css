@@ -1,0 +1,280 @@
+header{
+    width: 100%;
+    height: 1.38rem;
+    background-image: url("../img/header/1.png");
+    background-size: cover;
+    padding: 0.28rem 0.24rem 0;
+    box-sizing: border-box;
+    /*background: red;*/
+}
+header .left{
+    width: 1.5rem;
+    height: 0.45rem;
+    /*background: white;*/
+    float: left;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.45rem;
+}
+.icon-dingwei{
+    color: #fff;;
+}
+header .left a{
+    color: #fff;
+}
+header .sou{
+    width: 3.27rem;
+    height: 0.39rem;
+    background: #fff;
+    float: right;
+    border: none;
+    font-size: 0.18rem;
+    line-height: 0.45rem;
+    border-radius: 0.2rem;
+    padding-left: 0.8rem;
+    box-sizing: border-box;
+    margin-right: 1.8rem ;
+    margin-top: 0.06rem;
+    position: relative;
+}
+header  img{
+    width: 0.33rem;
+    height: 0.26rem;
+    padding-left: 0.1rem;
+    position: absolute;
+    left: 2.2rem;
+    top: 0.39rem;
+}
+nov{
+    width: 7.5rem;
+    height: 3.2rem;
+}
+nov .box{
+    width: 7.5rem;
+    height: 3.2rem;
+    /*background: yellow;*/
+    position: absolute;
+    top:1.3rem;
+}
+nov .box .box1{
+    display: block;
+    width: 20%;
+    height: 1.36rem;
+    /*background: pink;*/
+    float: left;
+    position: relative;
+    margin-bottom: 0.2rem;
+}
+nov .box .box1 img{
+    width: 1.06rem;
+    height: 1.36rem;
+    position: absolute;
+    left: 0.22rem;
+}
+
+nov .box .box2{
+    width: 20%;
+    height: 1.36rem;
+    background: pink;
+    float: left;
+    position: relative;
+    margin-bottom: 0.2rem;
+    display: none;
+}
+nov .box .box2 img{
+    width: 1.06rem;
+    height: 1.36rem;
+    position: absolute;
+    left: 0.22rem;
+}
+
+nov .dot{
+    width: 100%;
+    height: 0.1rem;
+    /*background: yellow;*/
+    margin-top: 3rem;
+}
+nov .dot .Btn{
+    width: 0.6rem;
+    height: 0.06rem;
+    /*background: #0c80dc;*/
+    margin: 0 auto;
+}
+nov .dot .Btn .BtnSon{
+    width: 0.06rem;
+    height: 0.06rem;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-right: 0.03rem;
+    float: left;
+    border-radius: 0.03rem;
+}
+nov .dot .Btn .BtnSon:nth-child(1){
+    width: 0.3rem;
+    background: rgba(0,0,0,0.3);
+}
+.banner{
+    width: 100%;
+    height: 1.3rem;
+    /*background: #0c80dc;*/
+    overflow: hidden;
+}
+.banner .top{
+    height: 0.3rem;
+    /*background: yellow;*/
+    margin-top: 0.3rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.banner .top .juxing{
+    width: 1.2rem;
+    height: 0.03rem;
+    margin-top: 0.13rem;
+    background: #6f6d6d;
+    float: left;
+}
+.banner .top .juxing:nth-child(1){
+    margin-left: 1.6rem;
+}
+.banner .top b{
+    float: left;
+    padding: 0 0.35rem;
+}
+.banner .bottom{
+    height: 0.7rem;
+    /*background: pink;*/
+    padding: 0 0.24rem;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.25rem;
+}
+
+
+section{
+    width: 100%;
+    min-height: 2.85rem;
+    /*background: yellow;*/
+}
+section .shop{
+    width: 100%;
+    height:2.85rem;
+    /*background: pink;*/
+    display: flex;
+    padding: 0.19rem 0.24rem 0.1rem;
+    border-bottom:1px solid rgba(0,0,0,0.3);
+}
+section .shop .shopPic{
+    width: 1.74rem;
+    height: 100%;
+    /*background: green;*/
+}
+section .shop .shopPic img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+section .shop .shopSon{
+    width: calc(100% - 1.5rem);
+    height: 100%;
+    /*background: red;*/
+    display: flex;
+    flex-direction: column;
+    /*padding: 0.19rem 0;*/
+}
+section .shop .shopSon .shopListBox{
+    width: 100%;
+    height: 0.02rem;
+    /*background: #0c80dc;*/
+    font-size: 0.2rem;
+    flex-direction: row;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .shop .shopSon .shopListBox:nth-child(5){
+    display: flex;
+    justify-content:normal;
+}
+section .shop .shopSon .shopListBox:nth-child(6){
+    display: flex;
+    justify-content:normal;
+}
+section .shop .shopSon .shopListBox .shopming{
+    height: 100%;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+section .shop .shopSon .shopListBox .icon-gengduo-tianchong{
+    color: #afafaf;
+}
+section .shop .shopSon .shopListBox .left .icon-xingxing1{
+    font-size: 0.2rem;
+    color: yellow;
+}
+section .shop .shopSon .shopListBox .fengniao{
+    width: 1rem;
+    height: 0.27rem;
+    background:#759cda;
+    line-height: 0.27rem;
+}
+section .shop .shopSon .shopListBox span{
+    font-size: 0.18rem;
+    color: #bcbcbc;
+}
+section .shop .shopSon .shopListBox .dianpu{
+     width: 1.5rem;
+     height: 0.4rem;
+     border: 1px solid #878787;
+ }
+section .shop .shopSon .shopListBox .shoudan .kuang1{
+    background: #cffbc6;
+    width: 0.69rem;
+    height: 0.32rem;
+    color: #50bc4a;
+    margin-right: 0.2rem;
+}
+section .shop .shopSon .shopListBox .manjian .kuang2{
+    background: #f7abab;
+    width: 0.69rem;
+    height: 0.32rem;
+    color: #ef2c2c;
+    margin-right: 0.2rem;
+}
+section .shop:last-child{
+    height: 1rem;
+}
+footer .bottom{
+    background-image: url("../img/footer/footer.jpg");
+    width: 100%;
+    height: 1rem;
+    position:fixed;
+    bottom: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .bottom .Btn{
+    width: 1rem;
+    height: 0.7rem;
+    /*background: yellow;*/
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .bottom .Btn p{
+    font-size: 0.18rem;
+    color: white;
+}
+footer .bottom .Btn .iconfont{
+    color: white;
+}
+footer .bottom .Btn:nth-child(1) p{
+    font-size: 0.18rem;
+    color: #000000;
+}
+footer .bottom .Btn:nth-child(1) .iconfont{
+    color: #000000;
+}

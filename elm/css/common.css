@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #000000;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+span{
+     font-size: 0.18rem;
+     color: #bcbcbc;
+ }

@@ -1,0 +1,300 @@
+
+header{
+    width: 100%;
+    height: 1.83rem;
+    background: #0c80dc;
+    padding: 0 0.24rem ;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url("../img/shop/shop-top.jpg");
+}
+header .top{
+    height: 1.83rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.3rem;
+    box-sizing: border-box;
+}
+header .top  >.right{
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+}
+header .top .iconfont{
+    font-size: 0.44rem;
+    color: #fff;
+}
+header .logo{
+    width: 1.5rem;
+    height:1.5rem;
+    background-image: url("../img/shop/shop-logo.png");
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position:center;
+    position: absolute;
+    top:1rem;
+    left: 3rem;
+}
+.detail{
+    width: 100%;
+    height: 1.8rem;
+    margin-top: 0.67rem;
+    /*background: pink;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail .box{
+    width: 5.5rem;
+    margin: 0 auto;
+    /*background: blue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-grow: 1;*/
+}
+.detail .box .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail .box .left .icon-xingxing1{
+    font-size: 0.18rem;
+    color: yellow;
+}
+.detail .box h2{
+    font-size: 0.3rem;
+}
+.detail .box .zuo{
+    width: 0.6rem;
+    height: 0.3rem;
+    background: #fbcdef;
+    font-size: 0.18rem;
+    color: #d66942;
+    line-height: 0.3rem;
+    text-align: center;
+}
+.detail .box .zhong{
+    font-size: 0.2rem;
+}
+.detail .box:nth-child(3) span{
+    width: 5.5rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.detail .box .icon-xiala{
+    font-size: 0.18rem;
+    color: #bcbcbc;
+}
+
+.diancan{
+    width:100%;
+    height: 0.63rem;
+    /*background:#0c80dc;*/
+    padding: 0 0.24rem;
+    margin-top: 0.2rem;
+    border-bottom: 1px solid #b5b5b5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.diancan .box{
+    width: 1.6rem;
+    height: 100%;
+    /*background:deeppink;*/
+    font-size: 0.24rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.63rem;
+}
+.diancan .box .juxing{
+    width: 0.5rem;
+    height: 0.05rem;
+    background: green;
+    margin:-0.03rem auto 0;
+}
+
+.food{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+.food >.left{
+    width: 1.67rem;
+    height: auto;
+    background: #ececec;
+}
+.food .left .box{
+    width: 100%;
+    height: 0.85rem;
+    border-bottom: 1px solid #bfbfbf;
+    display: flex;
+
+}
+.food .left .box span{
+    color: rgba(0,0,0,0.5);
+    font-size:0.21rem;
+    line-height: 0.85rem;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}
+.food .left .boxBox span{
+    color: #000000;
+}
+.food >.right{
+    width: calc(100% - 1.67rem);
+    height: auto;
+}
+.food >.right .top{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    line-height: 0.8rem;
+}
+.food >.right .top span{
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+}
+.food >.right .bottom{
+    width: 100%;
+    height: auto;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+.food >.right .bottom .box{
+    width: 100%;
+    height: 2.3rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction:row;
+}
+.food >.right .bottom .box .pic a{
+    width: 2.06rem;
+    height:100%;
+    padding:0 0.3rem;
+    box-sizing: border-box;
+}
+.food >.right .bottom .box >.right{
+    width:3.77rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.food >.right .bottom .box >.right >.rightBox{
+    width: 100%;
+    height: 0.02rem;
+    display: flex;
+    flex-grow: 1;
+    /*background: #0c80dc;*/
+}
+.food >.right .bottom .box >.right .two span{
+    width:3rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.food >.right .bottom .box >.right .four{
+    color: #e0592a;
+}
+.food >.right .bottom .box >.right .five span{
+    font-size:0.24rem;
+    color: #e0592a;
+}
+
+.food >.right .bottom .box >.right .five del{
+    font-size: 0.18rem;
+    color: #605f5f;
+}
+.food >.right .bottom .box >.right .one a{
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.food >.right .bottom .box >.right .four .zhekou{
+    font-size: 0.18rem;
+    width: 0.8rem;
+    height: 0.35rem;
+    color: #ff0000;
+    text-align: center;
+    line-height: 0.35rem;
+    border: 1px solid #ff0000;
+}
+.food >.right .bottom .box >.right .five{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.food >.right .bottom .box >.right .five .left{
+    width: 1.24rem;
+    height: 0.45rem;
+    display: flex;
+}
+.food >.right .bottom .box >.right .five >.right{
+    width: 1rem;
+    height: 0.45rem;
+    display: flex;
+    justify-content: space-between;
+}
+.food >.right .bottom .box >.right .five .icon-jia{
+    font-size: 0.18rem;
+    color: #3688ff;
+    line-height: 0.45rem;
+}
+.food >.right .bottom .box >.right .five p{
+    font-size: 0.18rem;
+}
+.food >.right .bottom .box >.right .five .icon-jian{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.2);
+    line-height: 0.45rem;
+}
+
+
+
+
+
+
+.di{
+    width: 100%;
+    height: 1rem;
+    background: #212121;
+    position: fixed;
+    bottom: 0;
+
+}
+.di .zi h5{
+    font-size: 0.26rem;
+    padding-left: 2rem;
+    padding-top: 0.13rem;
+    box-sizing: border-box;
+    color: #fff;
+}
+.di .zi h6{
+    font-size: 0.18rem;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    color: #fff;
+}
+.di >.qisong{
+    width: 1.7rem;
+    height: 1rem;
+    background:#4d4f4f;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    top: 0rem;
+}
+.di >.qisong span{
+    font-size: 0.28rem;
+    position: absolute;
+    right: 0.28rem;
+    top:0.25rem;
+}
+.di img{
+    font-size: 1.1rem;
+    position: absolute;
+    top:-0.5rem;
+    left: 0.8rem;
+}
